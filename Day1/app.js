@@ -1,6 +1,6 @@
 const express=require('express');
 const app=express();
-const setupMiddleware=require('./middleware/middleware');
+const setupMiddleware=require('./core/middleware');
 setupMiddleware(app);
 
 app.get('/',(req,res)=>{
