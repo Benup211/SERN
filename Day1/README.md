@@ -1,6 +1,6 @@
-#SERN Day One
+# SERN Day One
 
 Topics Learned
--npm init
--Nodemon
--Express
+- npm init
+- Nodemon
+- Express
