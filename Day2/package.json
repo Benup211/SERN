@@ -1,0 +1,29 @@
+{
+  "name": "sern-day-two",
+  "version": "1.0.0",
+  "description": "learning about router and database",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benup211/SERN.git"
+  },
+  "keywords": [
+    "router",
+    "database",
+    "orm"
+  ],
+  "author": "benup ghimire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benup211/SERN/issues"
+  },
+  "homepage": "https://github.com/Benup211/SERN#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
