@@ -1,5 +1,4 @@
 'use strict';
-
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
@@ -9,10 +8,10 @@ module.exports = {
      * Example:
      * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
      */
-    await queryInterface.addColumn('users', 'age', {
-      type: Sequelize.INTEGER,
+    await queryInterface.addColumn('users', 'abc', {
+      type: Sequelize.STRING,
       allowNull: true,
-      defaultValue: 18,
+      defaultValue: "abc",
     });
   },
 
@@ -23,6 +22,6 @@ module.exports = {
      * Example:
      * await queryInterface.dropTable('users');
      */
-    await queryInterface.removeColumn('users', 'age');
+    await queryInterface.removeColumn('users', 'abc');
   }
 };
